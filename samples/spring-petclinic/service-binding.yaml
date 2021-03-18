@@ -11,8 +11,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: spring-petclinic
-  # direct Secret reference is used for compatibility, but not recommended for dynamically provisioned services
   service:
-    apiVersion: v1
-    kind: Secret
+    apiVersion: bindings.labs.vmware.com/v1alpha1
+    kind: ProvisionedService
     name: spring-petclinic-db
