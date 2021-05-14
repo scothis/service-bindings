@@ -64,8 +64,8 @@ kubectl describe job multi-binding
 ...
 Environment:
   SERVICE_BINDING_ROOT:  /bindings
-  MULTI_BINDING_1:       <set to the key 'number' in secret 'multi-binding-1-projection'>  Optional: false
-  MULTI_BINDING_2:       <set to the key 'number' in secret 'multi-binding-2-projection'>  Optional: false
+  MULTI_BINDING_1:       <set to the key 'number' in secret 'multi-binding-1'>  Optional: false
+  MULTI_BINDING_2:       <set to the key 'number' in secret 'multi-binding-2'>  Optional: false
 ...
 ```
 
